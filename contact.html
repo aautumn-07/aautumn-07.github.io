@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -16,14 +16,22 @@
         <a href="skills.html">Skills</a>
         <a href="contact.html" class="active">Contact</a>
     </nav>
-    <img src="images/profile.jpg" class="profile-img">
 </header>
 
 <main class="page contact">
+
     <h1>Contact Me</h1>
-    <p>Email: 7atra7@gmail.com</p>
-    <p>GitHub: github.com/aautumn_07</p>
-    <p>Location:  Kathmandu,Nepal</p>
+    <p>If you want to get in touch, please fill out the form below:</p>
+
+    <div class="contact-form">
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
 </main>
 
 </body>

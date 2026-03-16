@@ -47,13 +47,6 @@ nav a.active {
     padding-bottom: 5px;
 }
 
-.profile-img {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 2px solid #38bdf8;
-}
-
 /* COMMON SECTION */
 main.page {
     min-height: calc(100vh - 80px);
@@ -69,7 +62,6 @@ main.page {
     background: linear-gradient(120deg, #2563eb, #38bdf8);
     color: white;
 }
-
 
 .home-text {
     max-width: 600px;
@@ -101,6 +93,22 @@ main.page {
 
 .home button:hover {
     background: #facc15;
+}
+
+/* HOME IMAGE */
+.home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image img {
+    width: 380px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #fde047;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
 /* ABOUT PAGE */
@@ -162,12 +170,57 @@ main.page {
 
 .contact h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    color: #1e293b;
 }
 
 .contact p {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #1e293b;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 5px #38bdf8;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background: #38bdf8;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #2563eb;
 }
 
 /* FOOTER */
@@ -177,18 +230,4 @@ footer {
     background: #020617;
     color: white;
     font-size: 14px;
-}
-.home-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-image img {
-    width: 380px;        /* BIG but not full */
-    height: 380px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 6px solid #fde047;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
