@@ -20,6 +20,6 @@ Here are the main skills I used to build my portfolio:
 
 ## 📫 Contact
 
-- **Email:** rokaamrit890@gmail.com  
+
 - **GitHub:** [github.com/aautumn_07](https://github.com/aautumn_07)  
 - **Location:** Kathmandu, Nepal
