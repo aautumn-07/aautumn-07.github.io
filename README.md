@@ -18,8 +18,6 @@ Here are the main skills I used to build my portfolio:
 
 
 
-## 📫 Contact
 
 
-- **GitHub:** [github.com/aautumn_07](https://github.com/aautumn_07)  
-- **Location:** Kathmandu, Nepal
+
