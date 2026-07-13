@@ -39,11 +39,6 @@ Through this project, I gained practical experience in:
 
 
 
-## 🔗 Live Demo
-
-Visit the portfolio here:
-https://aautumn-07.github.io/
-
 
 
 
