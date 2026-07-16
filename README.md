@@ -1,4 +1,5 @@
 
+
 # 🌐 My Portfolio
 
 Welcome to my personal portfolio website! This project was created as part of my academic work to showcase my skills, projects, and learning journey in web development.
@@ -35,11 +36,7 @@ Through this project, I gained practical experience in:
 * Styling websites using CSS
 * Adding interactivity with JavaScript
 * Creating responsive layouts
-* Organizing and deploying a website using GitHub Pages
-
-
-
-
+* Organizing and deploying a website using GitHub 
 
 
 
