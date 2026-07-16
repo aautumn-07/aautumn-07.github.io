@@ -36,8 +36,6 @@ Through this project, I gained practical experience in:
 * Adding interactivity with JavaScript
 * Creating responsive layouts
 * Organizing and deploying a website using GitHub Pages
-rokka ajd
-
 
 
 
